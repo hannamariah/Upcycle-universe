@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Raleway:wght@200&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -20,22 +20,114 @@ body {
     background: url(images/reshare.png) center/cover no-repeat #8F9D87;
 }
 
+.blok1 {
+    text-align: center;
+    font-size: 18px;
+    justify-content: center;
+    background-color: #8F9D87;
+    border-radius: 20%;
+    margin: 5%;
+    padding: 2%;
+    border: 8px dotted white;
+}
+
+.blok2 {
+    text-align: center;
+    font-size: 18px;
+    justify-content: center;
+    background-color: #8F9D87;
+    border-radius: 20%;
+    margin: 5%;
+    padding: 2%;
+    color: rgb(127, 0, 0);
+    border: 8px dotted rgb(127, 0, 0);
+}
+
+.blok3 {
+    text-align: center;
+    font-size: 18px;
+    justify-content: center;
+    background-color: #8F9D87;
+    border-radius: 20%;
+    margin: 5%;
+    padding: 2%;
+    border: 8px dotted white;
+}
+
+.blok4 {
+    
+    text-align: center;
+    font-size: 18px;
+    justify-content: center;
+    background-color:#76846e;
+    margin: 5%;
+    padding: 2%;
+    color: white;
+    border-radius: 20%;
+}
+
+
+
+
+.imagehome1 {
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    width: 31%;
+    height: 35%;
+    background-color: #76846e;
+}
+
+.imagehome2 {
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    width: 31%;
+    height: 35%;
+    background-color: #76846e;
+}
+
+.imagehome3 {
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    width: 31%;
+    height: 35%;
+    background-color: #76846e;
+    margin: 2%;
+}
+
+.imagehome4 {
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    width: 31%;
+    height: 35%;
+    background-color: #76846e;
+    margin: 2%;
+}
 
 
 h1 {
     text-align: center;
-    margin: 20%;
-    padding: 1%;
     color: white;
+    margin: 5%;
+    padding: 5%;
     font-size: 24px;
     color: #7f0000;
 }
 
 h2 {
     text-align: center;
+    color:#76846e;
 }
 
-
+h3 {
+    text-align: center;
+    color: rgb(127, 0, 0);
+    font-size: 25px;
+    
+}
 
 
 /*page 2, persoonlijke verhalen*/
@@ -54,7 +146,24 @@ h2 {
     }
 }
 
+
+
+
+
 /*page 3, kleding doneren*/
+
+.maps {
+    display: flex;
+    width: 85%;
+    margin: 3%;
+    padding: 3%;
+    background-color: #390606;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
 
 .container {
     display: flex;
@@ -64,6 +173,7 @@ h2 {
     background-color:#8F9D87;
     border: 6px dotted rgb(127, 0, 0);
     padding: 10%;
+    margin: 4%;
     font-size: 16px;
     text-align: center;
 }
@@ -73,7 +183,7 @@ h2 {
     text-align: center;
     color: white;
     background-color: rgb(127, 0, 0);
-    margin: 1%;
+    margin: 10%;
     padding: 10%;
     border: 6px dotted #8F9D87;
 }
@@ -293,13 +403,15 @@ footer {
 
 
 img {
-    width: 100%;
-    vertical-align: left;
+ 
+max-width: 100%;
   
 }
 
 .blog-item img {
   display: block;
+  width: 100%;
+  height: 90%;
 }
 
 .blog-item a {
@@ -359,10 +471,12 @@ img {
     .blog-item .content {
         width: 100%;
         margin-top: 35px;
+        justify-content: center;
     }
 
     .blog-item .content .title {
         font-size: 18px;
+        
     }
 
 
